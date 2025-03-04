@@ -11,13 +11,14 @@ function Entry(){
 
         <div className="entry">
             <p className="bsd">בס"ד</p>
-            <div className="logo-entry">
-                <img src="logo-av.png" className='logo-av-entry' />
+            <div className="arche-entry">
+                <img src="logo-m7.png" className='logo-entry' />
+                <p className='entry-name'>Judith<br /> & <br /> Dan David</p>
                 <p className='entry-date'>03 . 06 . 2024</p>
+                <CountDown />
+                <Link to='/home' className='invit-link'>Voir l'invitation</Link>
+                <img src="fleurs-entry-bas.png" className='fleurs-entry-bas' />
             </div>
-            <p className="entry-noms">Victoria <span className='and'>&</span> Alone</p>
-            <CountDown />
-            <Link to='/home' className='invit-link'><button className='invit-button'>Voir l'invitation</button></Link>
         </div>
 
     )

@@ -8,16 +8,10 @@
     display: none !important;
 }
 
-@font-face {
-    font-family: 'New Icon';
-    src: url('./assets/fonts/New-Icon-Serif-condensed.ttf') format('truetype');
-    font-weight: 100;
-    font-style: normal;
-}
 
 @font-face {
-    font-family: 'Burgues';
-    src: url('./assets/fonts/burgues-script.otf') format('opentype');
+    font-family: 'Bridget';
+    src: url('./assets/fonts/Bridget.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
@@ -40,7 +34,7 @@
 
 .too-big h1{
     height: fit-content;
-    font-family: 'Amsterdam', sans-serif;
+    font-family: 'Bridget';
     text-align: center;
 }
 
@@ -50,12 +44,9 @@
 .entry{
     height: 100%;
     width: 100%;
-    background-image: url('/fond-av.png');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url('/fond-m7.png');
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
@@ -70,24 +61,59 @@
     color: #536493;
 }
 
-.countdown{
-    width: 90%;
+.arche-entry{
+    width: 80%;
+    height: 80%;
+    background-color: #FFDFDA;
+    padding: 20px 0 0 0;
+    border: #A34444 solid 6px;
+    border-top-left-radius: 50% 170px;
+    border-top-right-radius: 50% 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-entry{
+    width: 110px;
+    height: 70px;
+}
+
+.entry-name{
+    text-align: center;
+    font-family: 'Bridget', serif;
+    font-size: 80px;
+    color: #A34444;
     height: fit-content;
-    margin: 0 auto;
-    color: #402E20;
-    font-family: "Antic Didone", serif;
+    margin-top: 10px;
+}
+
+.entry-date{
+    font-family: "Lora", serif;
+    font-weight: bold;
+    color: #A34444;
+    font-size: larger;
+    height: fit-content;
+}
+
+.countdown{
+    width: 95%;
+    height: fit-content;
+    color: #A34444;
+    font-family: "Bridget";
     font-weight: lighter;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    margin: 30px 0;
 }
 
 .time{
     text-align: center;
-    font-size: small;
-    background-color: rgba(198, 165, 138, 0.39);
-    border-radius: 28px;
+    font-size: 40px;
+    background-color: transparent;
     height: 65px;
     width: 65px;
     display: flex;
@@ -96,6 +122,19 @@
     text-align: center;
 }
 
+.invit-link{
+    height: fit-content;
+    font-family: 'Lora';
+    text-decoration: none;
+    color: #A34444;
+    font-size: x-large;
+    margin-top: 20px;
+}
+
+.fleurs-entry-bas{
+    width: 100%;
+    height: 130px;
+}
 
 /* Home */
 
@@ -169,11 +208,11 @@
 
 .mairie-noms{
     color: #536493;
-    font-family: "Burgues";
+    font-family: "Bridget";
     display: flex;
     flex-direction: row;
     margin: 50px auto 20px auto;
-    font-size: 40px;
+    font-size: 70px;
     gap: 20px;
     font-weight: 100;
     letter-spacing: 3px;
