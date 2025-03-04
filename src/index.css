@@ -76,14 +76,14 @@
 }
 
 .logo-entry{
-    width: 110px;
-    height: 70px;
+    width: 90px;
+    height: 50px;
 }
 
 .entry-name{
     text-align: center;
     font-family: 'Bridget', serif;
-    font-size: 80px;
+    font-size: 60px;
     color: #A34444;
     height: fit-content;
     margin-top: 10px;
@@ -93,7 +93,7 @@
     font-family: "Lora", serif;
     font-weight: bold;
     color: #A34444;
-    font-size: larger;
+    font-size: medium;
     height: fit-content;
 }
 
@@ -112,7 +112,7 @@
 
 .time{
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     background-color: transparent;
     height: 65px;
     width: 65px;
@@ -127,7 +127,7 @@
     font-family: 'Lora';
     text-decoration: none;
     color: #A34444;
-    font-size: x-large;
+    font-size: larger;
     margin-top: 20px;
 }
 
