@@ -81,20 +81,29 @@
     height: 50px;
 }
 
-.entry-name{
+.entry-name-1, .entry-name-2, .entry-and{
     text-align: center;
     font-family: 'Bridget', serif;
-    font-size: 60px;
+    font-size: 70px;
     color: #A34444;
     height: fit-content;
     margin-top: 10px;
+}
+
+.entry-and{
+    font-size: 40px;
+    transform: translateY(-20px);
+}
+
+.entry-name-2{
+    transform: translateY(-40px) ;
 }
 
 .entry-date{
     font-family: "Lora", serif;
     font-weight: bold;
     color: #A34444;
-    font-size: medium;
+    font-size: small;
     height: fit-content;
 }
 
@@ -129,6 +138,7 @@
     text-decoration: none;
     color: #A34444;
     font-size: larger;
+    transform: translateY(30px);
 }
 
 .fleurs-entry-bas{

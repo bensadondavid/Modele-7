@@ -13,7 +13,9 @@ function Entry(){
             <p className="bsd">בס"ד</p>
             <div className="arche-entry">
                 <img src="logo-m7.png" className='logo-entry' />
-                <p className='entry-name'>Judith<br /> & <br /> Dan David</p>
+                <p className='entry-name-1'>Judith</p>
+                <p className='entry-and'>&</p>
+                <p className='entry-name-2'>Dan David</p>
                 <p className='entry-date'>03 . 06 . 2024</p>
                 <CountDown />
                 <Link to='/home' className='invit-link'>Voir l'invitation</Link>
