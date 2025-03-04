@@ -1,0 +1,537 @@
+* {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#loom-companion-mv3, #shadow-host-companion {
+    display: none !important;
+}
+
+@font-face {
+    font-family: 'New Icon';
+    src: url('./assets/fonts/New-Icon-Serif-condensed.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Burgues';
+    src: url('./assets/fonts/burgues-script.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* Too Big */
+
+.too-big{
+    width: 100%;
+    height: 100vh;
+    background-image: url('/fond-element-haut.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.too-big h1{
+    height: fit-content;
+    font-family: 'Amsterdam', sans-serif;
+    text-align: center;
+}
+
+
+/* Entry */
+
+.entry{
+    height: 100%;
+    width: 100%;
+    background-image: url('/fond-av.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bsd{
+    height: fit-content;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-family: "Alice", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #536493;
+}
+
+.countdown{
+    width: 90%;
+    height: fit-content;
+    margin: 0 auto;
+    color: #402E20;
+    font-family: "Antic Didone", serif;
+    font-weight: lighter;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.time{
+    text-align: center;
+    font-size: small;
+    background-color: rgba(198, 165, 138, 0.39);
+    border-radius: 28px;
+    height: 65px;
+    width: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+/* Home */
+
+.home{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-image: url('/fond-arche-m6.png');
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
+
+.musique button{
+    height: 40px;
+    width: 40px;
+    border: solid #536493 1px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 30px;
+    left: 10px;
+    z-index: 100;
+    background-color: transparent;
+}
+
+/* Mairie */
+
+.arche{
+    height: fit-content;
+    width: 90vw;
+    background-image: url('/fond-m6.png');
+    background-repeat: repeat;
+    background-size: contain;
+    overflow: hidden;
+    margin: 100px auto;
+    border-radius: 50% / 150px;
+}
+
+.arche-card{
+    height: fit-content;
+    width: 80vw;
+    margin: 20px auto;
+    padding: 10px 0 100px 0;
+    background-image: url('/fond-arche-m6.png');
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50% / 150px;
+}
+
+.arche-image{
+    height: 120px;
+    width: 90%;
+}
+
+
+.mairie-title{
+    height: fit-content;
+    color: #536493;
+    font-family: "Burgues";
+    font-size: 30px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+
+.mairie-noms{
+    color: #536493;
+    font-family: "Burgues";
+    display: flex;
+    flex-direction: row;
+    margin: 50px auto 20px auto;
+    font-size: 40px;
+    gap: 20px;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+
+
+.mairie-text,.mairie-oui,.mairie-date,
+.mairie-endroit,.mairie-suite{
+    width: 80%;
+    height: fit-content;
+    color: #536493;
+    font-family: 'New Icon';
+    font-weight: 100;
+    text-align: center;
+    margin: 10px auto;
+    line-height: 25px;
+}
+
+.waze-mairie,.save-the-date-mairie{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.waze-mairie{
+    margin: 20px 0 0 0;
+}
+
+.waze-link,.save-the-date-link{
+    color: #536493;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 100;
+    text-align: center
+}
+
+/* Houppa */
+
+.houppa{
+    width: 100%;
+    height: fit-content;
+}
+
+.img-houppa{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.arche-image-houppa{
+    height: 120px;
+    width: 80%;
+}
+
+.logo-houppa{
+    height: 130px;
+    width: 100px;
+    transform: translateY(-10px);
+}
+
+.kol-sasson{
+    width: 75%;
+    height: 120px;
+    transform: translateY(-90px);
+}
+
+.houppa-title{
+    height: fit-content;
+    color: #536493;
+    font-family: "Burgues";
+    font-size: 40px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-align: center;
+    transform: translateY(-30px);
+}
+
+
+.parents{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 15px auto 10px auto;
+}
+
+.parents-fille, .parents-garcon{
+    font-family: 'New Icon';
+    font-size: small;
+    color: #536493;
+}
+
+.houppa-noms{
+    width: 100%;
+    color: #536493;
+    font-family: "Burgues";
+    text-align: center;
+    margin: 40px auto auto auto;
+    font-size: 50px;
+    letter-spacing: 3px;
+}
+
+
+.houppa-text{
+    width: 80%;
+    font-family: 'New Icon';
+    text-align: center;
+    color: #536493;
+    margin: 30px auto auto auto;
+}
+
+.houppa-date{
+    font-family: 'New Icon';
+    text-align: center;
+    color: #536493;
+    margin: 10px auto auto auto;
+}
+
+.houppa-endroit{
+    font-family: 'New Icon';
+    text-align: center;
+    color: #536493;
+    font-size: 25px;
+    margin: 30px auto auto auto;
+}
+
+.pensee{
+    margin: 30px auto auto auto;
+    font-family: "Imperial Script", cursive;
+    text-align: center;
+    color: #536493;
+    font-style: italic;
+}
+
+.waze-houppa,.save-the-date-houppa{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.waze-houppa{
+    margin: 30px 0 0 0;
+}
+
+.waze-link,.save-the-date-link{
+    color: #536493;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 100;
+    text-align: center
+}
+
+/* Chabat */
+
+.chabat-title{
+    height: fit-content;
+    color: #536493;
+    font-family: "Burgues";
+    font-size: 30px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+
+.chabat-noms{
+    color: #536493;
+    font-family: "Burgues";
+    display: flex;
+    flex-direction: row;
+    margin: 50px auto 20px auto;
+    font-size: 40px;
+    gap: 20px;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+
+
+.chabat-text,.chabat-date,
+.chabat-endroit,.chabat-suite{
+    width: 80%;
+    height: fit-content;
+    color: #536493;
+    font-family: 'New Icon';
+    font-weight: 100;
+    text-align: center;
+    margin: 10px auto;
+    line-height: 25px;
+}
+
+.waze-chabat,.save-the-date-chabat{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.waze-chabat{
+    margin: 20px 0 0 0;
+}
+
+.waze-link,.save-the-date-link{
+    color: #536493;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 100;
+    text-align: center
+}
+/* Response */
+
+.response{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.response-title{
+    height: fit-content;
+    color: #536493;
+    font-family: "Burgues";
+    font-size: 40px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.reponse-souhaite{
+    color: #536493;
+    font-family: 'Imperial Script', serif;
+    font-size: medium;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+/* Form */
+
+form{
+    height: fit-content;
+    width: 100%;
+    font-family: 'New Icon', serif;
+    color: #536493;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    letter-spacing: 2px;
+}
+
+label{
+    margin: 10px 0 10px 20px;
+}
+
+.nom, .prenom, .person-number{
+    width: 85%;
+    height: 20px;
+    padding: 10px;
+    border: none;
+    background-color: rgba(154, 141, 68, 0.37);
+    border-radius: 50% / 170px;
+    margin-top: 5px;
+}
+
+.label-textarea{
+    margin-left: 20px;
+}
+
+input[type = radio]{
+    margin-right: 10px;
+}
+
+.square-checkbox {
+    appearance: none; /* Supprime l'apparence par défaut */
+    height: 15px;
+    width: 15px;
+    background-color: transparent; /* Couleur de fond */
+    border: 1px solid #536493; /* Bordure noire */
+    border-radius: 50%; /* Pas de bordure arrondie pour un effet carré */
+    cursor: pointer;
+    position: relative; /* Nécessaire pour positionner la flèche */
+    margin-left: 10px;
+}
+
+.square-checkbox:checked::after {
+    content: ''; /* Pseudo-élément pour la flèche */
+    position: absolute;
+    top: 2px; /* Position verticale */
+    left: 4px; /* Position horizontale */
+    width: 3px; /* Largeur de la flèche */
+    height: 5px; /* Hauteur de la flèche */
+    border: solid #536493; /* Couleur de la flèche */
+    border-width: 0 2px 2px 0; /* Taille des lignes de la flèche */
+    transform: rotate(45deg); /* Inclinaison pour créer une flèche */
+}
+
+textarea{
+    width: 85%;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    background-color: rgba(154, 141, 68, 0.37);
+    border-radius: 50% / 170px;
+    margin-left: 15px;
+}
+
+.submit-button{
+    height: 40px;
+    width: 170px;
+    margin: 15px auto;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(83, 100, 147, 0.58);
+    color: #E0EFFE;
+    font-family: 'New Icon', serif;
+    font-size: x-large;
+    letter-spacing: 2px;
+    padding-top: 6px;
+}
+
+/* Presence */
+
+.presence{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.present{
+    display: flex;
+    flex-direction: column;
+}
+
+.present input{
+    margin-right: 10px; 
+}
+
+.present .square-checkbox{
+    margin-left: 25px;
+}
+
+.number{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+
+.fleur-bas{
+    margin-top: 20px;
+    height: 110px;
+    width: 80px;
+    transform: rotate(20deg);
+}
