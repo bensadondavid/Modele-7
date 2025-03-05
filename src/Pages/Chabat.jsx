@@ -11,7 +11,7 @@ function Chabat(){
 
         <div className="arche">
            <div className="arche-card">
-                <img src="arche-m6.png" className='arche-image' />
+           <img src="logo-chabat.png" className='arche-logo' />
                 <h1 className='chabat-title'>Le Chabat</h1>
                 <div className="chabat-noms">
                     <p>Noa & David</p>

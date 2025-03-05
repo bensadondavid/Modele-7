@@ -154,17 +154,16 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    background-image: url('/fond-arche-m6.png');
+    background-image: url('/fond-m7.png');
     background-position: center;
-    background-repeat: repeat-y;
-    background-size: cover;
+    background-repeat: repeat-y 100vh;
 }
 
 
 .musique button{
     height: 40px;
     width: 40px;
-    border: solid #536493 1px;
+    border: solid #A34444 1px;
     border-radius: 50%;
     position: fixed;
     bottom: 30px;
@@ -177,55 +176,49 @@
 
 .arche{
     height: fit-content;
-    width: 90vw;
-    background-image: url('/fond-m6.png');
-    background-repeat: repeat;
-    background-size: contain;
-    overflow: hidden;
-    margin: 100px auto;
-    border-radius: 50% / 150px;
+    width: 100%;
+    background-image: url('/fond-m7.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .arche-card{
+    width: 80%;
     height: fit-content;
-    width: 80vw;
-    margin: 20px auto;
-    padding: 10px 0 100px 0;
-    background-image: url('/fond-arche-m6.png');
-    position: relative;
+    background-color: #ffdfdae6;
+    padding: 30px 0 0 0;
+    border: #A34444 solid 6px;
+    border-top-left-radius: 50% 170px;
+    border-top-right-radius: 50% 170px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    border-radius: 50% / 150px;
+    justify-content: space-between;
+    overflow: hidden;
 }
 
-.arche-image{
-    height: 120px;
-    width: 90%;
+.arche-logo{
+    height: 50px;
+    width: 50px;
 }
 
 
 .mairie-title{
     height: fit-content;
-    color: #536493;
-    font-family: "Burgues";
+    color: #A34444;
+    font-family: "Luxurious Script", cursive;
     font-size: 30px;
     font-weight: 100;
-    letter-spacing: 2px;
 }
 
 
 .mairie-noms{
-    color: #536493;
-    font-family: "Bridget";
-    display: flex;
-    flex-direction: row;
-    margin: 50px auto 20px auto;
-    font-size: 70px;
-    gap: 20px;
+    color: #A34444;
+    font-family: "Lora";
+    font-size: 20px;
     font-weight: 100;
-    letter-spacing: 3px;
+    text-align: center;
 }
 
 
@@ -233,8 +226,8 @@
 .mairie-endroit,.mairie-suite{
     width: 80%;
     height: fit-content;
-    color: #536493;
-    font-family: 'New Icon';
+    color: #A34444;
+    font-family: 'Lora';
     font-weight: 100;
     text-align: center;
     margin: 10px auto;
@@ -254,18 +247,13 @@
 }
 
 .waze-link,.save-the-date-link{
-    color: #536493;
+    color: #A34444;
     font-family: "Cormorant Garamond", serif;
     font-weight: 100;
     text-align: center
 }
 
 /* Houppa */
-
-.houppa{
-    width: 100%;
-    height: fit-content;
-}
 
 .img-houppa{
     height: fit-content;
