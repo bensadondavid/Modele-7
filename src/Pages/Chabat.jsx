@@ -14,7 +14,7 @@ function Chabat(){
            <img src="logo-chabat.png" className='arche-logo' />
                 <h1 className='chabat-title'>Le Chabat</h1>
                 <div className="chabat-noms">
-                    <p>Noa & David</p>
+                    <p>Judith <br />&<br /> Dan David</p>
                 </div>
                 <p className='chabat-text'>Seront ravis de partager leur chabat hatan avec vous </p>
                 <p className='chabat-date'>Le vendredi 8 <br /> et samedi 9 juin 2024</p>

@@ -56,9 +56,6 @@
     position: absolute;
     top: 5px;
     right: 5px;
-    font-family: "Alice", serif;
-    font-weight: 400;
-    font-style: normal;
     color: #A34444;
 }
 
@@ -199,7 +196,7 @@
 }
 
 .arche-logo{
-    height: 60px;
+    height: 80px;
     width: 60px;
 }
 
@@ -304,7 +301,7 @@
 }
 
 .parents-fille, .parents-garcon{
-    font-family: 'New Icon';
+    font-family: "Lora";
     font-size: small;
     color: #A34444;
 }
@@ -312,7 +309,7 @@
 .houppa-noms{
     width: 100%;
     color: #A34444;
-    font-family: "Burgues";
+    font-family: "Lora";
     text-align: center;
     margin-top: 40px;
     font-size: 40px;
@@ -322,21 +319,21 @@
 
 .houppa-text{
     width: 80%;
-    font-family: 'New Icon';
+    font-family: "Lora";
     text-align: center;
     color: #A34444;
     margin: 30px auto auto auto;
 }
 
 .houppa-date{
-    font-family: 'New Icon';
+    font-family: "Lora";
     text-align: center;
     color: #A34444;
     margin: 10px auto auto auto;
 }
 
 .houppa-endroit{
-    font-family: 'New Icon';
+    font-family: "Lora";
     text-align: center;
     color: #A34444;
     margin-top: 30px;
@@ -364,7 +361,7 @@
 
 .chabat-noms{
     color: #A34444;
-    font-family: "Burgues";
+    font-family: 'Lora';
     display: flex;
     flex-direction: row;
     margin-bottom: 20px;
@@ -372,6 +369,7 @@
     gap: 20px;
     font-weight: 100;
     letter-spacing: 3px;
+    text-align: center;
 }
 
 
@@ -380,7 +378,7 @@
     width: 80%;
     height: fit-content;
     color: #A34444;
-    font-family: 'New Icon';
+    font-family: "Lora";
     font-weight: 100;
     text-align: center;
     margin: 10px auto;
