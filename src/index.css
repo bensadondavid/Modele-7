@@ -45,6 +45,7 @@
     height: 100%;
     width: 100%;
     background-image: url('/fond-m7.png');
+    background-size: 50% auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -154,9 +155,6 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    background-image: url('/fond-m7.png');
-    background-position: center;
-    background-repeat: repeat-y 100vh;
 }
 
 
@@ -178,9 +176,11 @@
     height: fit-content;
     width: 100%;
     background-image: url('/fond-m7.png');
+    background-size: 50% auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 30px 0;
 }
 
 .arche-card{
@@ -199,8 +199,8 @@
 }
 
 .arche-logo{
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 60px;
 }
 
 
@@ -208,17 +208,19 @@
     height: fit-content;
     color: #A34444;
     font-family: "Luxurious Script", cursive;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 100;
+    margin: 20px 0;
 }
 
 
 .mairie-noms{
     color: #A34444;
     font-family: "Lora";
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 100;
     text-align: center;
+    margin: 20px 0;
 }
 
 
@@ -234,7 +236,7 @@
     line-height: 25px;
 }
 
-.waze-mairie,.save-the-date-mairie{
+.waze,.save-the-date{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -242,13 +244,14 @@
     gap: 5px;
 }
 
-.waze-mairie{
+.waze{
     margin: 20px 0 0 0;
 }
 
 .waze-link,.save-the-date-link{
     color: #A34444;
-    font-family: "Cormorant Garamond", serif;
+    font-family: 'Luxurious Script';
+    font-size: x-large;
     font-weight: 100;
     text-align: center
 }
@@ -270,26 +273,24 @@
 }
 
 .logo-houppa{
-    height: 130px;
-    width: 100px;
-    transform: translateY(-10px);
+    height: 60px;
+    width: 60px;
+    transform: translateY(-60px);
 }
 
 .kol-sasson{
-    width: 75%;
-    height: 120px;
-    transform: translateY(-90px);
+    height: fit-content;
+    width: 90%;
+    transform: translateY(-20px);
 }
 
 .houppa-title{
     height: fit-content;
-    color: #536493;
-    font-family: "Burgues";
+    color: #A34444;
+    font-family: "Luxurious Script", cursive;
     font-size: 40px;
     font-weight: 100;
-    letter-spacing: 2px;
-    text-align: center;
-    transform: translateY(-30px);
+    transform: translateY(-20px);
 }
 
 
@@ -305,16 +306,16 @@
 .parents-fille, .parents-garcon{
     font-family: 'New Icon';
     font-size: small;
-    color: #536493;
+    color: #A34444;
 }
 
 .houppa-noms{
     width: 100%;
-    color: #536493;
+    color: #A34444;
     font-family: "Burgues";
     text-align: center;
-    margin: 40px auto auto auto;
-    font-size: 50px;
+    margin-top: 40px;
+    font-size: 40px;
     letter-spacing: 3px;
 }
 
@@ -323,70 +324,50 @@
     width: 80%;
     font-family: 'New Icon';
     text-align: center;
-    color: #536493;
+    color: #A34444;
     margin: 30px auto auto auto;
 }
 
 .houppa-date{
     font-family: 'New Icon';
     text-align: center;
-    color: #536493;
+    color: #A34444;
     margin: 10px auto auto auto;
 }
 
 .houppa-endroit{
     font-family: 'New Icon';
     text-align: center;
-    color: #536493;
-    font-size: 25px;
-    margin: 30px auto auto auto;
+    color: #A34444;
+    margin-top: 30px;
 }
 
 .pensee{
-    margin: 30px auto auto auto;
+    margin: 30px auto;
     font-family: "Imperial Script", cursive;
     text-align: center;
-    color: #536493;
+    color: #A34444;
     font-style: italic;
-}
-
-.waze-houppa,.save-the-date-houppa{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
-}
-
-.waze-houppa{
-    margin: 30px 0 0 0;
-}
-
-.waze-link,.save-the-date-link{
-    color: #536493;
-    font-family: "Cormorant Garamond", serif;
-    font-weight: 100;
-    text-align: center
 }
 
 /* Chabat */
 
 .chabat-title{
     height: fit-content;
-    color: #536493;
-    font-family: "Burgues";
-    font-size: 30px;
+    color: #A34444;
+    font-family: "Luxurious Script", cursive;
+    font-size: 40px;
     font-weight: 100;
-    letter-spacing: 2px;
+    margin: 30px 0;
 }
 
 
 .chabat-noms{
-    color: #536493;
+    color: #A34444;
     font-family: "Burgues";
     display: flex;
     flex-direction: row;
-    margin: 50px auto 20px auto;
+    margin-bottom: 20px;
     font-size: 40px;
     gap: 20px;
     font-weight: 100;
@@ -398,7 +379,7 @@
 .chabat-endroit,.chabat-suite{
     width: 80%;
     height: fit-content;
-    color: #536493;
+    color: #A34444;
     font-family: 'New Icon';
     font-weight: 100;
     text-align: center;
@@ -406,24 +387,6 @@
     line-height: 25px;
 }
 
-.waze-chabat,.save-the-date-chabat{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
-}
-
-.waze-chabat{
-    margin: 20px 0 0 0;
-}
-
-.waze-link,.save-the-date-link{
-    color: #536493;
-    font-family: "Cormorant Garamond", serif;
-    font-weight: 100;
-    text-align: center
-}
 /* Response */
 
 .response{
@@ -438,7 +401,7 @@
 
 .response-title{
     height: fit-content;
-    color: #536493;
+    color: #A34444;
     font-family: "Burgues";
     font-size: 40px;
     font-weight: 100;
@@ -447,7 +410,7 @@
 }
 
 .reponse-souhaite{
-    color: #536493;
+    color: #A34444;
     font-family: 'Imperial Script', serif;
     font-size: medium;
     text-align: center;
@@ -461,7 +424,7 @@ form{
     height: fit-content;
     width: 100%;
     font-family: 'New Icon', serif;
-    color: #536493;
+    color: #A34444;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -495,7 +458,7 @@ input[type = radio]{
     height: 15px;
     width: 15px;
     background-color: transparent; /* Couleur de fond */
-    border: 1px solid #536493; /* Bordure noire */
+    border: 1px solid #A34444; /* Bordure noire */
     border-radius: 50%; /* Pas de bordure arrondie pour un effet carré */
     cursor: pointer;
     position: relative; /* Nécessaire pour positionner la flèche */
@@ -509,7 +472,7 @@ input[type = radio]{
     left: 4px; /* Position horizontale */
     width: 3px; /* Largeur de la flèche */
     height: 5px; /* Hauteur de la flèche */
-    border: solid #536493; /* Couleur de la flèche */
+    border: solid #A34444; /* Couleur de la flèche */
     border-width: 0 2px 2px 0; /* Taille des lignes de la flèche */
     transform: rotate(45deg); /* Inclinaison pour créer une flèche */
 }
