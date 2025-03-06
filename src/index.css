@@ -161,7 +161,7 @@
 .musique button{
     height: 40px;
     width: 40px;
-    border: solid #A34444 1px;
+    border: solid #000 2px;
     border-radius: 50%;
     position: fixed;
     bottom: 30px;
@@ -389,29 +389,18 @@
 
 /* Response */
 
-.response{
-    height: fit-content;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-}
-
 .response-title{
     height: fit-content;
     color: #A34444;
-    font-family: "Burgues";
+    font-family: "Luxurious Script", cursive;
     font-size: 40px;
     font-weight: 100;
-    letter-spacing: 2px;
-    text-align: center;
+    margin-top: 20px;
 }
 
 .reponse-souhaite{
     color: #A34444;
-    font-family: 'Imperial Script', serif;
+    font-family: "Luxurious Script", cursive;
     font-size: medium;
     text-align: center;
     margin-top: 10px;
@@ -421,14 +410,15 @@
 /* Form */
 
 form{
-    height: fit-content;
+    height: 100%;
     width: 100%;
-    font-family: 'New Icon', serif;
+    font-family: "Lora";
     color: #A34444;
     display: flex;
     flex-direction: column;
     justify-content: center;
     letter-spacing: 2px;
+    margin-top: 40px;
 }
 
 label{
@@ -439,8 +429,8 @@ label{
     width: 85%;
     height: 20px;
     padding: 10px;
-    border: none;
-    background-color: rgba(154, 141, 68, 0.37);
+    border: #A34444 solid 1px;
+    background-color: transparent;
     border-radius: 50% / 170px;
     margin-top: 5px;
 }
@@ -481,8 +471,8 @@ textarea{
     width: 85%;
     height: 40px;
     padding: 10px;
-    border: none;
-    background-color: rgba(154, 141, 68, 0.37);
+    border: #A34444 solid 1px;
+    background-color: transparent;
     border-radius: 50% / 170px;
     margin-left: 15px;
 }
@@ -490,15 +480,13 @@ textarea{
 .submit-button{
     height: 40px;
     width: 170px;
-    margin: 15px auto;
-    border: none;
+    margin: 40px auto;
+    border: #A34444 solid 1px;
     border-radius: 20px;
-    background-color: rgba(83, 100, 147, 0.58);
-    color: #E0EFFE;
-    font-family: 'New Icon', serif;
-    font-size: x-large;
+    background-color: transparent;
+    color: #A34444;
+    font-size: large;
     letter-spacing: 2px;
-    padding-top: 6px;
 }
 
 /* Presence */
@@ -526,12 +514,4 @@ textarea{
     display: flex;
     flex-direction: column;
     margin-left: 15px;
-}
-
-
-.fleur-bas{
-    margin-top: 20px;
-    height: 110px;
-    width: 80px;
-    transform: rotate(20deg);
 }
